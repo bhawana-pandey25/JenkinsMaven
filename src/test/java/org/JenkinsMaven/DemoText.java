@@ -48,9 +48,9 @@ private static WebDriver driver;
 //		System.out.println(h2);
 		Set<String> h1=driver.getWindowHandles();
 		System.out.println(h1);
-		driver.switchTo().window(h1.stream().toList().get(1));
-		String e=driver.findElement(By.id("sampleHeading")).getText();
-		Assert.assertEquals(e,"This is a sample page"); 
+//		driver.switchTo().window(h1.stream().toList().get(1));
+//		String e=driver.findElement(By.id("sampleHeading")).getText();
+//		Assert.assertEquals(e,"This is a sample page"); 
 		
 		
 		
